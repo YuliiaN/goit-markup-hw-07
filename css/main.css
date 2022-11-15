@@ -444,7 +444,7 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover, .clients__link:focus {
-  border-color: 1px solid #2196ff;
+  border-color: #2196ff;
   color: #2196ff;
 }
 
