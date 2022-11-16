@@ -1,11 +1,11 @@
-.portfolio__filter__list {
+.portfolio__filter-list {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
 
-.portfolio__filter__btn {
+.portfolio__filter-btn {
   padding: 6px 22px;
 
   font-family: "Roboto", "Tahoma", sans-serif;
@@ -35,17 +35,17 @@
 
 // cards
 
-.portfolio__cards__list {
+.portfolio__cards-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio__cards__item {
+.portfolio__cards-item {
   width: calc((100% - 60px) / 3);
 }
 
-.portfolio__cards__link {
+.portfolio__cards-link {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -57,12 +57,12 @@
   }
 }
 
-.portfolio__cards__pic {
+.portfolio__cards-pic {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio__cards__cover {
+.portfolio__cards-cover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -79,20 +79,20 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .portfolio__cards__link:hover &,
-  .portfolio__cards__link:focus & {
+  .portfolio__cards-link:hover &,
+  .portfolio__cards-link:focus & {
     transform: translateY(0);
   }
 }
 
-.portfolio__cards__content {
+.portfolio__cards-content {
   padding: 20px 24px;
 
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
-.portfolio__cards__subtitle {
+.portfolio__cards-subtitle {
   margin-bottom: 4px;
   
   font-weight: 700;
@@ -101,7 +101,7 @@
   letter-spacing: 0.06em;
 }
 
-.portfolio__cards__text {
+.portfolio__cards-text {
   color: $primary-text-color;
   font-size: 16px;
   line-height: 1.88;
