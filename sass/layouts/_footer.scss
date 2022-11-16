@@ -15,14 +15,14 @@ footer {
   margin-right: 70px;
 }
 
-.footer__address__list {
+.footer__address-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
   margin-top: 20px;
 }
 
-.footer__address__link {
+.footer__address-link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 1.71;
@@ -46,8 +46,8 @@ footer {
   margin-right: 93px;
 }
 
-.footer__sm__text,
-.footer__subscription__text {
+.footer__sm-text,
+.footer__subscription-text {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -70,7 +70,7 @@ footer {
   display: flex;
   gap: 12px;
 
-  .footer__form__input {
+  .footer__form-input {
     width: 100%;
     padding: 15px 16px;
     background-color: transparent;
@@ -93,7 +93,7 @@ footer {
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .footer__btn__icon {
+  .footer__btn-icon {
     width: 24px;
     height: 24px;
     fill: $btn-color;

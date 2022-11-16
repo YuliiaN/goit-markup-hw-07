@@ -466,14 +466,14 @@ footer .footer__container {
   margin-right: 70px;
 }
 
-.footer__address__list {
+.footer__address-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
   margin-top: 20px;
 }
 
-.footer__address__link {
+.footer__address-link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 1.71;
@@ -481,7 +481,7 @@ footer .footer__container {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__address__link:hover, .footer__address__link:focus {
+.footer__address-link:hover, .footer__address-link:focus {
   color: #2196ff;
 }
 
@@ -493,8 +493,8 @@ footer .footer__container {
   margin-right: 93px;
 }
 
-.footer__sm__text,
-.footer__subscription__text {
+.footer__sm-text,
+.footer__subscription-text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -514,7 +514,7 @@ footer .footer__container {
   display: flex;
   gap: 12px;
 }
-.footer__form .footer__form__input {
+.footer__form .footer__form-input {
   width: 100%;
   padding: 15px 16px;
   background-color: transparent;
@@ -522,7 +522,7 @@ footer .footer__container {
   border-radius: 4px;
   color: #ffffff;
 }
-.footer__form .footer__form__input:hover {
+.footer__form .footer__form-input:hover {
   outline: none;
   border: 1px solid #2196ff;
 }
@@ -534,7 +534,7 @@ footer .footer__container {
   align-items: center;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__btn .footer__btn__icon {
+.footer__btn .footer__btn-icon {
   width: 24px;
   height: 24px;
   fill: #ffffff;
